@@ -22,15 +22,3 @@ java -jar .\jenkins.war
 
 6. Verify a build runs for the `main` branch; open the build Console Output to see the pipeline messages.
 
-Using the included Maven sample project
-
-- `pom.xml` defines a tiny Java project with a single unit test. Jenkins `tools` block in the `Jenkinsfile` expects tools named `Maven` and `JDK11` in Jenkins → Global Tool Configuration.
-- To run locally:
-
-```powershell
-cd path\to\ssd-lab12
-mvn -v
-mvn test
-```
-
-Screenshots: use the provided `lab12_screenshots.md` checklist to capture images for your lab PDF.
