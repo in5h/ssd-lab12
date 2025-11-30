@@ -1,0 +1,10 @@
+target/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+# OS files
+Thumbs.db
+desktop.ini
+*.log
